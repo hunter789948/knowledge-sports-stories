@@ -8,7 +8,7 @@ const stories = [
     title: "Leicester City’s 5000-to-1 Premier League Triumph (2016)",
     excerpt:
       "A fairytale that shattered every rule of modern football and redefined what belief can achieve.",
-     image:"/src/assets/stories/leicester city.jpeg",
+     image:"/stories/leicester-city.jpeg",
       content: [
       "At the beginning of the 2015–16 Premier League season, Leicester City were widely expected to struggle for survival. Just a year earlier, the club had narrowly avoided relegation, and their squad lacked both financial power and star names. Bookmakers famously offered odds of 5000-to-1 for Leicester to win the league, reflecting how impossible the achievement appeared.",
       "Under manager Claudio Ranieri, Leicester embraced a clear and fearless identity. Rather than dominate possession, they focused on compact defending and rapid counter-attacks. Jamie Vardy became the symbol of this approach, using relentless pressing and pace to torment defenses. His record-breaking run of scoring in 11 consecutive league matches captured global attention.",
@@ -24,7 +24,7 @@ const stories = [
   title: "The Miracle of Istanbul (2005)",
   excerpt:
     "A Champions League final that transformed despair into eternal glory in just six minutes.",
-   image:"/src/assets/stories/2005ucl.jpeg",
+   image:"/stories/lpool.jpg",
     content: [
     "The 2005 UEFA Champions League final between Liverpool and AC Milan was expected to be a clash of experience and quality, but few could have predicted the drama that would unfold. AC Milan arrived in Istanbul with a team filled with legends such as Paolo Maldini, Andrea Pirlo, Kaká, and Andriy Shevchenko. Liverpool, by contrast, were seen as underdogs, relying more on spirit than star power.",
     
@@ -45,7 +45,7 @@ const stories = [
   title: "Denmark’s Unlikely European Championship Victory (1992)",
   excerpt:
     "Called in at the last moment, Denmark shocked Europe with a triumph no one saw coming.",
-  image:"/src/assets/stories/denmark.jpeg",
+  image:"/stories/denmark.jpeg",
     content: [
     "Denmark’s victory at the 1992 European Championship is one of international football’s most extraordinary stories, beginning with the fact that they were never meant to be there. The Danish national team failed to qualify for the tournament and had already accepted elimination. Players had gone on summer holidays, believing their season was over.",
     
@@ -68,7 +68,7 @@ const stories = [
   title: "The Maracanazo (1950)",
   excerpt:
     "A single match that silenced an entire nation and reshaped Brazilian football forever.",
-  image:"/src/assets/stories/maracanazo.jpeg",
+  image:"/stories/maracanazo.jpeg",
     content: [
     "The final match of the 1950 FIFA World Cup was expected to be Brazil’s coronation. Playing at the newly built Maracanã Stadium in Rio de Janeiro, Brazil needed only a draw against Uruguay to secure the title. The atmosphere was celebratory even before kickoff, with newspapers printing victory headlines in advance and crowds arriving prepared to witness history.",
     
@@ -90,7 +90,7 @@ const stories = [
   title: "Pelé’s Emergence on the World Stage (1958)",
   excerpt:
     "A 17-year-old boy announced himself as football’s future on the world’s biggest stage.",
-  image:"/src/assets/stories/pele.jpeg",
+  image:"/stories/pele.jpeg",
     content: [
     "Pelé’s arrival at the 1958 FIFA World Cup marked the beginning of a new era in football history. At just 17 years old, the Brazilian forward traveled to Sweden as a promising but largely unknown talent. An injury kept him out of Brazil’s opening matches, and few outside the team expected him to play a decisive role in the tournament.",
     
@@ -112,7 +112,7 @@ const stories = [
   title: "Real Madrid’s European Dominance: The Kings of the Champions League",
   excerpt:
     "No club has shaped European football like Real Madrid, whose legacy in the Champions League stands unmatched in history.",
-  image:"/src/assets/stories/hala madrid.jpeg",
+  image:"/stories/hala-madrid.jpeg",
     content: [
     "In the history of European football, no club commands the same respect, fear, and admiration as Real Madrid. From the very birth of the European Cup to the modern Champions League era, Real Madrid have consistently defined excellence on the grandest stage. Their dominance is not built on a single golden generation but on a culture of winning that transcends eras.",
     "Real Madrid’s European journey began in the 1950s, when they won the first five European Cups consecutively between 1956 and 1960. Led by legends such as Alfredo Di Stéfano, Ferenc Puskás, and Francisco Gento, the club established itself as the standard-bearer of continental football. These early triumphs laid the foundation for a legacy that would grow stronger with time.",
@@ -132,7 +132,7 @@ const stories = [
   title: "The Miracle of Eden Gardens (2001)",
   excerpt:
     "From follow-on to victory, India produced one of cricket’s greatest turnarounds.",
-  image:"/src/assets/stories/India dominate.jpeg",
+  image:"/stories/India-dominate.jpeg",
     content: [
     "The second Test of the 2001 Border–Gavaskar Trophy at Eden Gardens appeared to be slipping rapidly away from India. Australia arrived in Kolkata with a fearsome reputation, riding a 16-match winning streak and dominating world cricket. After dismissing India cheaply in the first innings, Australia enforced the follow-on, a decision that seemed to seal the match and the series.",
     
@@ -153,7 +153,7 @@ const stories = [
   title: "Botham’s Ashes (1981)",
   excerpt:
     "A single performance that resurrected an entire Ashes series and became cricketing folklore.",
-  image:"/src/assets/stories/ashes.jpeg",
+  image:"/stories/ashes.jpeg",
     content: [
     "The 1981 Ashes series appeared to be slipping away from England when the third Test began at Headingley. Australia were dominant, and England, led by an out-of-form Ian Botham, were struggling for confidence. After being dismissed cheaply in the first innings, England were forced to follow on, a situation that usually signals inevitable defeat in Test cricket.",
     
@@ -174,7 +174,7 @@ const stories = [
   title: "The 438-Run Match (2006)",
   excerpt:
     "The greatest run chase in cricket history rewrote what was thought possible in one-day internationals.",
-  image:"/src/assets/stories/sa.jpeg",
+  image:"/stories/sa.jpeg",
     content: [
     "The fifth One Day International between Australia and South Africa in Johannesburg in 2006 was expected to be competitive, but few imagined it would redefine the boundaries of cricket itself. Australia, batting first, produced an extraordinary display of power and precision, piling up a world-record total of 434 runs. At the time, the score was considered unthinkable in an ODI.",
     
@@ -194,7 +194,7 @@ const stories = [
   title: "The Underarm Incident (1981)",
   excerpt:
     "A single, controversial delivery that sparked global outrage and permanently changed cricket’s laws and ethics.",
-  image:"/src/assets/stories/underarm.jpeg",
+  image:"/stories/underarm.jpeg",
     content: [
     "The Underarm Incident of 1981 remains one of the most controversial moments in cricket history, not because of extraordinary skill or drama, but because it challenged the very spirit of the game. The incident occurred during a One Day International between Australia and New Zealand at the Melbourne Cricket Ground, in a match that appeared destined for a thrilling finish.",
     
@@ -216,7 +216,7 @@ const stories = [
   title: "The 2019 Cricket World Cup Final",
   excerpt:
     "A final decided by boundaries after two ties delivered the most dramatic ending in cricket history.",
-  image:"/src/assets/stories/england 2019.jpeg",
+  image:"/stories/england-2019.jpeg",
     content: [
     "The 2019 Cricket World Cup final at Lord’s was billed as a contest between two contrasting teams: England, the aggressive hosts who had revolutionized one-day cricket, and New Zealand, the disciplined and resilient underdogs who had quietly grown into a formidable force. What followed was a match that surpassed all expectations and redefined sporting drama.",
     
@@ -238,7 +238,7 @@ const stories = [
   title: "India’s 2011 World Cup Triumph: A Dream Fulfilled After 28 Years",
   excerpt:
     "A historic night in Mumbai where an entire nation celebrated belief, legacy, and destiny coming together.",
-  image:"/src/assets/stories/sachin paaji.jpeg",
+  image:"/stories/sachin-paaji.jpeg",
     content: [
     "The 2011 ICC Cricket World Cup was more than just a tournament for India—it was an emotional journey that carried the hopes of over a billion people. Hosted jointly by India, Sri Lanka, and Bangladesh, the competition marked a defining moment in Indian cricket history. For a generation that had grown up hearing stories of 1983, this World Cup was about creating their own unforgettable memory.",
     "India entered the tournament as one of the favorites, boasting a balanced squad filled with experience and youth. Sachin Tendulkar, playing his sixth World Cup, stood at the heart of the narrative. With legends like Virender Sehwag, Gautam Gambhir, Yuvraj Singh, MS Dhoni, and Zaheer Khan, the team carried both expectation and pressure in equal measure.",
