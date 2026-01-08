@@ -1,19 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
 import Sports from "./pages/sports_page";
 import Cricket from "./pages/Cricket";
 import Football from "./pages/Football";
 import Stories from "./pages/Stories";
 import Story from "./pages/Story";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-
 function App() {
-  return ( 
-    <BrowserRouter>
+  return (
+    <>
       <Navbar />
-      <main className=" bg-gray-950 pt-20 min-h-screen">
+
+      <main className="bg-gray-950 pt-20 min-h-screen">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sports" element={<Sports />} />
@@ -23,9 +25,10 @@ function App() {
           <Route path="/story/:id" element={<Story />} />
         </Routes>
       </main>
-      <Footer/>
-    </BrowserRouter>
-  );
 
+      <Footer />
+    </>
+  );
 }
+
 export default App;
