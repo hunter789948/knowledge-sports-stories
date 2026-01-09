@@ -8,6 +8,7 @@ export default function Football() {
   const API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
 
   useEffect(() => {
+    console.log("GNEWS KEY AT RUNTIME:", import.meta.env.VITE_GNEWS_API_KEY);
     const fetchFootballNews = async () => {
       try {
         const res = await fetch(
