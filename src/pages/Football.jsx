@@ -5,17 +5,19 @@ export default function Football() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
+  const API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
+
   useEffect(() => {
     const fetchFootballNews = async () => {
       try {
         const res = await fetch(
-          `https://newsapi.org/v2/everything?q=football&language=en&pageSize=10&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`
+          `https://gnews.io/api/v4/search?q=football&lang=en&max=10&apikey=${API_KEY}`
         );
 
         const data = await res.json();
 
-        if (data.status !== "ok") {
-          throw new Error(data.message);
+        if (!data.articles) {
+          throw new Error("No articles found");
         }
 
         setArticles(data.articles);
@@ -27,7 +29,7 @@ export default function Football() {
     };
 
     fetchFootballNews();
-  }, []);
+  }, [API_KEY]);
 
   return (
     <div className="pt-28 max-w-6xl mx-auto px-6 text-white pb-32">
@@ -45,10 +47,10 @@ export default function Football() {
             rel="noreferrer"
             className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition"
           >
-            {item.urlToImage && (
+            {item.image && (
               <img
-                src={item.urlToImage}
-                alt=""
+                src={item.image}
+                alt={item.title}
                 className="rounded-lg mb-4 h-44 w-full object-cover"
               />
             )}
