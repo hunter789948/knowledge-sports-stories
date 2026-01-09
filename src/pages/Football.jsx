@@ -23,7 +23,7 @@ export default function Football() {
 
         setArticles(data.articles);
       } catch (err) {
-        setError("Failed to load football news");
+        setError("Live news integration coming soon");
       } finally {
         setLoading(false);
       }

@@ -22,7 +22,7 @@ export default function Cricket() {
 
         setArticles(data.articles);
       } catch (err) {
-        setError("Failed to load cricket news");
+        setError("Live news integration coming soon");
       } finally {
         setLoading(false);
       }
