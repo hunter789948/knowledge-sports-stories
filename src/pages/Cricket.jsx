@@ -5,23 +5,26 @@ export default function Cricket() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
-
   useEffect(() => {
     const fetchCricketNews = async () => {
       try {
         const res = await fetch(
-          `https://gnews.io/api/v4/search?q=cricket&lang=en&max=10&apikey=${API_KEY}`
+          `${window.location.origin}/api/news?q=cricket`
         );
+
+        if (!res.ok) {
+          throw new Error("Failed to fetch");
+        }
 
         const data = await res.json();
 
-        if (!data.articles) {
+        if (!data.articles || data.articles.length === 0) {
           throw new Error("No articles found");
         }
 
         setArticles(data.articles);
       } catch (err) {
+        console.error(err);
         setError("Live news integration coming soon");
       } finally {
         setLoading(false);
@@ -29,7 +32,7 @@ export default function Cricket() {
     };
 
     fetchCricketNews();
-  }, [API_KEY]);
+  }, []);
 
   return (
     <div className="pt-28 max-w-6xl mx-auto px-6 text-white pb-32">
@@ -47,9 +50,9 @@ export default function Cricket() {
             rel="noreferrer"
             className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition"
           >
-            {item.image && (
+            {item.urlToImage && (
               <img
-                src={item.image}
+                src={item.urlToImage}
                 alt={item.title}
                 className="rounded-lg mb-4 h-44 w-full object-cover"
               />
