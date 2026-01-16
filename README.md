@@ -1,16 +1,32 @@
-# React + Vite
+# Knowledge — Sports Storytelling Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Knowledge is a premium sports storytelling website that showcases iconic moments, legendary matches, and unforgettable journeys from the world of sports.  
+The project focuses on clean UI, smooth user experience, and modern frontend best practices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Responsive navbar with mobile hamburger menu
+- Dedicated stories page with image-based story cards
+- Detailed story reading pages
+- Football & Cricket category navigation
+- Modern dark-themed premium UI
+- Smooth hover and transition effects
+- Fully responsive (mobile, tablet, desktop)
+- Clean footer with site navigation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Lucide React
+
+---
+
+## 📂 Project Structure
+
